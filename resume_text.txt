@@ -1,0 +1,67 @@
+JETHVA KARTIK  
+Python Trainee  ·  Backend Developer  ·  Web Developer  
+✉ kartikjethva0@gmail.com   |   📞 +91 7863084523    |   ⌂ Kothariya, Rajkot, Gujarat  
+PROFESSIONAL SUMMARY  
+Passionate Backend Developer with hands -on experience building efficient and scalable web applications. 
+Proficient in Python, PHP, HTML, JavaScript, MySQL, and PostgreSQL. Experienced across multiple internships 
+in server -side logic, database management, and API development. Continuously learning new technologies to 
+improve develop ment skills and deliver clean, maintainable code.  
+CORE SKILLS & TOOLS  
+Python  HTML (Basic)  JavaScript (Basic)  MySQL  Django  
+Backend  API Integration  GitHub  ChatGPT  AI Tools  
+★ AI Tools: ChatGPT, Google Gemini, Claude AI — used for code generation, debugging,  and development acceleration.  
+WORK EXPERIENCE  
+Backend Intern   |  Ananta Technolab  
+2024 – Present  
+• Assisted in building and maintaining server -side logic, databases, and APIs for web applications.  
+• Worked with Python and managed data using MySQL and databases.  
+• Collaborated with frontend developers to integrate backend APIs and deliver complete web features.  
+HTML PHP Intern   |  Ethics Technologies  
+2023 – 2024 
+• Developed server -side applications using PHP and HTML to build simple, functional web platform s. 
+• Created and managed databases, handled form data, and connected web pages with backend logic.  
+• Gained practical experience with input validation, session handling, and clean code practices.  
+Python Backend Developer (Trainee)   |  Tops Technology  
+2025 – 2026 
+• Working on backend development using Python and PHP/HTML as part of structured professional training.  
+• Building and maintaining web applications, managing databases, and connecting backend logic to frontend 
+interfaces.  
+• Applying best practices in backen d architecture and strengthening skills across the full backend 
+development lifecycle.  
+EDUCATION  
+Diploma in Information Technology  Government Polytechnic Rajkot, 
+Gujarat  2022 – 2025 
+Backend Developer Training  Tops Technology, Rajkot  2025 – 2026 
+ 
+LANGUAGES  
+English   (Proficient)   |   Gujarati   (Native)   |   Hindi   (Conversational)  
+ 
+ACHIEVEMENTS & EXTRACURRICULARS   
+• Completed Backend Developer Training at Tops Technology covering Python, PHP, MySQL, and web 
+application architecture (2025 –2026).  
+• Strong problem -solving skills demonstrated through multiple internships building real -world backend 
+systems.  
+• Organized and detail -oriented professional with strong communication and teamwork abilities.  
+• Continuously self -learning new AI tools and backend te chnologies to stay current with industry trends.  
+ 
+KEY PROJECT   
+  Notes App | Python, Django, SQLite/MySQL   
+ Developed a secure Notes Management Web Application using Django.  
+ Implemented user authentication (Login, Signup, Logout).  
+ Added CRUD operations for creating, updating, deleting, and viewing notes.  
+ Designed responsive frontend using HTML, CSS, and Bootstrap.  
+ Integrated database management with SQLite/MySQL.  
+ Implemented form validation and secure data handling.  
+ Followed MVC /MVT architecture and REST API basics.  
+ Used Git/GitHub for version control and project management.  
+ 
+Image to Prompt Generator | Python, Django, AI Integration  
+ Developed an AI -powered web application that generates text prompts from uploaded images.  
+ Imple mented image upload, processing, and prompt generation features using Django.  
+ Designed a user -friendly and responsive interface using HTML, CSS, Bootstrap, and JavaScript.  
+ Added secure user authentication and image management functionality.  
+ Integrated AI tools/models for image analysis and prompt creation.  
+ Optimized backend performance for smooth and fast processing.  
+ Managed database operations using SQLite/MySQL.  
+ 
+ 

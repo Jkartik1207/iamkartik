@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kartik Jethva — Creative Backend Developer</title>
+  <meta name="description" content="Kartik Jethva is an innovative backend developer building scalable digital experiences."/>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'core/css/styles.css' %}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+  
+  <div class="loader-wrapper" id="loader">
+     <div class="loader-logo">KJ</div>
+  </div>
+
+  <header class="site-header">
+    <a href="/" class="header-logo">Kartik.</a>
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-secondary magnetic-btn desktop-only">
+        <span class="btn-text">Hire Me</span>
+        <div class="btn-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </a>
+      <button class="btn btn-primary magnetic-btn menu-toggle" id="menu-toggle">
+         <span class="btn-text">Menu</span>
+         <div class="btn-icon icon-menu">
+            <span class="dot"></span>
+            <span class="dot"></span>
+         </div>
+      </button>
+    </div>
+  </header>
+
+  <nav class="full-menu" id="full-menu">
+    <div class="menu-inner">
+      <a href="#home" class="menu-link">Home</a>
+      <a href="#about" class="menu-link">About</a>
+      <a href="#work" class="menu-link">Work</a>
+      <a href="#contact" class="menu-link">Contact</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <section id="home" class="hero-section section-padding">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="title-line"><span class="title-text">Building scalable</span></span>
+          <span class="title-line text-muted"><span class="title-text">backend systems.</span></span>
+        </h1>
+      </div>
+      <div class="scroll-indicator fade-in">
+        <span>Scroll</span>
+        <div class="line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section section-padding">
+      <div class="section-header">
+        <h2 class="section-sub fade-up">About Me</h2>
+        <p class="section-title fade-up">
+          I am a <span class="text-muted">diligent</span> developer, passionate about turning complex logic into efficient digital realities.
+        </p>
+      </div>
+      <div class="about-content">
+        <p class="fade-up about-desc">Passionate Backend Developer with hands-on experience building scalable web applications. Proficient in Python, PHP, MySQL, and PostgreSQL.</p>
+        <div class="skill-tags fade-up">
+           <span class="tag">Python</span>
+           <span class="tag">Django</span>
+           <span class="tag">MySQL</span>
+           <span class="tag">PostgreSQL</span>
+           <span class="tag">PHP</span>
+           <span class="tag">HTML/CSS</span>
+           <span class="tag">JavaScript</span>
+           <span class="tag">API Development</span>
+           <span class="tag">Git / GitHub</span>
+           <span class="tag">AI Tools (ChatGPT)</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work-section section-padding">
+      <div class="section-header">
+        <h2 class="section-sub fade-up">Work</h2>
+        <p class="section-title fade-up">Selected Projects</p>
+      </div>
+      
+      <div class="projects-list">
+        <a href="#" class="project-card fade-up">
+          <div class="project-overlay"></div>
+          <div class="project-pattern pattern-1"></div>
+          <div class="project-info">
+            <h3 class="project-title">Notes App</h3>
+            <p class="project-meta">Python · Django · SQLite/MySQL</p>
+            <ul class="project-desc">
+              <li>Built a secure notes management web application with authentication.</li>
+              <li>Implemented CRUD operations, responsive UI, and database integration.</li>
+              <li>Used Bootstrap for frontend and GitHub for version control.</li>
+            </ul>
+          </div>
+        </a>
+
+        <a href="#" class="project-card fade-up">
+          <div class="project-overlay"></div>
+          <div class="project-pattern pattern-2"></div>
+          <div class="project-info">
+            <h3 class="project-title">AI Prompt Generator</h3>
+            <p class="project-meta">Python · Django · AI Integration</p>
+            <ul class="project-desc">
+              <li>Developed an AI-powered app that generates text prompts from uploaded images.</li>
+              <li>Implemented image upload, processing, and prompt generation features.</li>
+              <li>Added authentication, responsive interface, and database management.</li>
+            </ul>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section section-padding theme-light">
+      <div class="section-header">
+        <h2 class="section-sub fade-up">Experience</h2>
+        <p class="section-title fade-up">
+          Where I've <span class="text-muted">contributed</span>.
+        </p>
+      </div>
+
+      <div class="experience-list">
+        <div class="experience-item fade-up">
+          <h3 class="exp-role">Backend Intern</h3>
+          <div class="exp-meta">
+            <span class="exp-company">Ananta Technolab</span>
+            <span class="exp-year">2024 – Present</span>
+          </div>
+        </div>
+        <div class="experience-item fade-up">
+          <h3 class="exp-role">HTML PHP Intern</h3>
+          <div class="exp-meta">
+            <span class="exp-company">Ethics Technologies</span>
+            <span class="exp-year">2023 – 2024</span>
+          </div>
+        </div>
+        <div class="experience-item fade-up">
+          <h3 class="exp-role">Python Trainee</h3>
+          <div class="exp-meta">
+            <span class="exp-company">Tops Technology</span>
+            <span class="exp-year">2025 – 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education-section section-padding">
+      <div class="section-header">
+        <h2 class="section-sub fade-up">Education</h2>
+        <p class="section-title fade-up">
+          Academic <span class="text-muted">background</span>.
+        </p>
+      </div>
+
+      <div class="experience-list">
+        <div class="experience-item fade-up">
+          <h3 class="exp-role">Diploma in IT</h3>
+          <div class="exp-meta">
+            <span class="exp-company">Government Polytechnic Rajkot</span>
+            <span class="exp-year">2022 – 2025</span>
+          </div>
+        </div>
+        <div class="experience-item fade-up">
+          <h3 class="exp-role">Backend Dev Training</h3>
+          <div class="exp-meta">
+            <span class="exp-company">Tops Technology, Rajkot</span>
+            <span class="exp-year">2025 – 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements-section section-padding theme-light">
+      <div class="section-header">
+        <h2 class="section-sub fade-up">Highlights</h2>
+        <p class="section-title fade-up">
+          Achievements & <span class="text-muted">Languages</span>.
+        </p>
+      </div>
+
+      <div class="achievements-content fade-up">
+        <div class="experience-list">
+          <div class="experience-item" style="border-bottom:none">
+            <h3 class="exp-role" style="font-size: clamp(1.5rem, 2vw, 2.5rem);">Languages</h3>
+            <div class="exp-meta" style="align-items:flex-start">
+              <span class="exp-company" style="text-align:left; color: var(--sohub-black); font-size: clamp(1rem, 1.5vw, 1.25rem);">English (Proficient) · Gujarati (Native) · Hindi (Conversational)</span>
+            </div>
+          </div>
+          <div class="experience-item">
+            <h3 class="exp-role" style="font-size: clamp(1.5rem, 2vw, 2.5rem);">Core Strengths</h3>
+            <div class="exp-meta" style="align-items:flex-start">
+              <span class="exp-company" style="text-align:left; color: var(--sohub-black); font-size: clamp(1rem, 1.5vw, 1.25rem); max-width: 600px;">Strong communication, teamwork, and self-learning ability. Actively uses AI tools for coding acceleration and debugging. Delivered multiple backend systems during internships.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding">
+      <div class="contact-content">
+        <h1 class="contact-title fade-up">
+          <span class="block">Don't</span>
+          <span class="block text-muted">be shy</span>
+        </h1>
+        
+        <div class="contact-actions fade-up">
+          <a href="mailto:kartikjethva0@gmail.com" class="btn btn-secondary magnetic-btn btn-large">
+            <span class="btn-text">Send Email</span>
+            <div class="btn-icon">
+              <svg width="20" height="20" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </a>
+          <div class="contact-email">kartikjethva0@gmail.com</div>
+        </div>
+      </div>
+
+      <footer class="site-footer fade-up">
+        <p>© 2026 Kartik Jethva</p>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="{% static 'core/js/script.js' %}"></script>
+</body>
+</html>
