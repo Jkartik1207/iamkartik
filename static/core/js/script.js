@@ -27,6 +27,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // --- Active Nav Link on Scroll ---
+  const navLinks = document.querySelectorAll('.nav-link');
+  const sections = document.querySelectorAll('section[id]');
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${id}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+
+  sections.forEach(section => sectionObserver.observe(section));
+
   // --- Scroll Animations (Intersection Observer) ---
   const observerOptions = {
     root: null,

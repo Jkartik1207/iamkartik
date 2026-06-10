@@ -66,11 +66,12 @@ a {
 }
 
 .loader-logo {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 800;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: var(--sohub-white);
   animation: pulse 1.5s infinite alternate;
+  text-align: center;
 }
 
 @keyframes pulse {
@@ -93,10 +94,73 @@ a {
 }
 
 .header-logo {
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
   font-weight: 800;
   letter-spacing: -0.05em;
   pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.logo-first {
+  color: var(--sohub-white);
+}
+
+.logo-last {
+  color: var(--sohub-accent);
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: none;
+  align-items: center;
+  gap: 2.5rem;
+  pointer-events: auto;
+}
+
+@media (min-width: 1024px) {
+  .navbar-links {
+    display: flex;
+  }
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sohub-grey);
+  position: relative;
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--sohub-accent);
+  transition: width 0.35s cubic-bezier(0.22, 0.68, 0, 1.2);
+}
+
+.nav-link:hover {
+  color: var(--sohub-white);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--sohub-white);
+}
+
+.nav-link.active::after {
+  width: 100%;
 }
 
 .header-actions {

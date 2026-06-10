@@ -17,11 +17,22 @@
 <body class="theme-dark">
 
   <div class="loader-wrapper" id="loader">
-    <div class="loader-logo">KJ</div>
+    <div class="loader-logo">Kartik Jethva</div>
   </div>
 
-  <header class="site-header">
-    <a href="/" class="header-logo">Kartik.</a>
+  <header class="site-header" id="navbar">
+    <a href="/" class="header-logo">
+      <span class="logo-first">Kartik</span><span class="logo-last"> Jethva</span>
+    </a>
+
+    <nav class="navbar-links" id="navbar-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
     <div class="header-actions">
       <a href="#contact" class="btn btn-secondary magnetic-btn desktop-only">
         <span class="btn-text">Hire Me</span>
@@ -32,7 +43,7 @@
           </svg>
         </div>
       </a>
-      <button class="btn btn-primary magnetic-btn menu-toggle" id="menu-toggle">
+      <button class="btn btn-primary magnetic-btn menu-toggle" id="menu-toggle" aria-label="Toggle mobile menu">
         <span class="btn-text">Menu</span>
         <div class="btn-icon icon-menu">
           <span class="dot"></span>
@@ -42,11 +53,13 @@
     </div>
   </header>
 
+  <!-- Mobile full-screen nav -->
   <nav class="full-menu" id="full-menu">
     <div class="menu-inner">
       <a href="#home" class="menu-link">Home</a>
       <a href="#about" class="menu-link">About</a>
       <a href="#work" class="menu-link">Work</a>
+      <a href="#experience" class="menu-link">Experience</a>
       <a href="#contact" class="menu-link">Contact</a>
     </div>
   </nav>
