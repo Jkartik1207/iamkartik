@@ -270,11 +270,14 @@ a {
   background: var(--bg-menu);
   z-index: 996;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s ease;
+  overflow-y: auto;
+  padding: 6rem 2rem;
 }
 
 .full-menu.active {
@@ -285,19 +288,25 @@ a {
 .menu-inner {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
 }
 
 .menu-link {
-  font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 800;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
   color: var(--text-main);
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 0.5rem 0;
+  display: inline-block;
 }
 
 .menu-link:hover {
   color: var(--color-accent);
+  transform: scale(1.05);
 }
 
 /* Sections */
@@ -315,7 +324,7 @@ a {
 .hero-section {
   height: 100vh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   position: relative;
 }
 
